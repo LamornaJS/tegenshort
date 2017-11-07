@@ -1,16 +1,55 @@
-nav.page-naviation {
-  width: 80px;
+html {
   background-color: white;
-  position: fixed;
-  top: 10%;
-  left: 0;
+  border: 15px solid black;
+  margin: 15px;
+  }
+
+/**Body styling **/
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.0em;
+  line-height: 1.0em;
+  color: black;
+  font-family: 'Rozha One', serif;
 }
 
-nav.page-naviation li {
-  width: 100%
+/** Navigation styling **/
+nav {
+  background-color: white;
+  text-align: center;
+  /**border-bottom: 1px solid black;
+  border-width: 1px 0; **/
+  margin: 0;
+  padding: 0;
 }
 
-nav.page-naviation a {
-  padding: 0.6em 10%;
-  widht: 80%;
+nav > a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+  text-decoration: none;
+  color: black;
+  font-size: 0.8em;
+}
+
+nav a:hover {
+  color: #E9D2A2;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  height: 60px;
+  padding: 10px;
+}
+
+/** Home page styling **/
+
+#homepageimage {
+  display: block;
+  margin: auto;
+  width: 70%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
