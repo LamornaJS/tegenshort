@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tegen Short</title>
       <link rel="stylesheet" type="text/css" href="style.css">
-      <link href="https://fonts.googleapis.com/css?family=Rozha+One" rel="stylesheet" type=text/css>
       <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
   </head>
+
     <body>
 
       <nav>
@@ -42,7 +43,35 @@
         </div>
 
         <div id="Gallery">
-        </div>
+  		      <div class="slideshow-container">
+  			         <div class="mySlides fade">
+  			           <div class="numbertext"> 1 / 4 </div>
+                   <img src="images/tegenheadshot.jpeg" style="width:100%">
+                    </div>
+
+                   <div class="mySlides fade">
+  			           <div class="numbertext"> 2 / 4 </div>
+                   <img src="images/tegenheadshottwo.jpg" style="width:100%">
+                  </div>
+
+                   <div class="mySlides fade">
+  			           <div class="numbertext"> 3 / 4</div>
+                   <img src="images/tegenheadshotthree.jpg" style="width:100%">
+                   </div>
+
+                   <div class="mySlides fade">
+  			           <div class="numbertext"> 4 / 4</div>
+                    <img src="images/tegenheadshotfour.jpg" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="nextSlide (-1)"></a>
+                    <a class="next" onclick="nextSlide (1)"></a>
+  		              </div>
+
+                    <div style="text-algin:center">
+  			                 <span class="dot" onclick="currentSlide (1)"></span> <span class="dot" onclick="currentSlide (2)"></span> <span class="dot" onclick="currentSlide (3)"></span>
+  		          </div>
+  	       </div>
 
         <div id="Contact">
         </div>
